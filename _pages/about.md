@@ -2,7 +2,9 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: PhD Candidate at <a href='https://www.sfu.ca/'>Simon Fraser University</a>.
+
+# https://www.sfu.ca/
 
 profile:
   align: right
