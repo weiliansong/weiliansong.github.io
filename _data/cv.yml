@@ -1,97 +1,81 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D in Computing Science
+      institution: Simon Fraser University, British Columbia, Canada
+      year: 2019-2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Advised by <a href='https://yasu-furukawa.github.io/'>Yasutaka Furukawa</a>
+    - title: M.S. in Computer Science
+      institution: University of Kentucky, United States
+      year: 2018-2019
       description:
-        - Description 1.
-        - Description 2.
+        - Advised by <a href='https://jacobsn.github.io/'>Nathan Jacobs</a>
+        - University Scholars program
+    - title: B.S. in Computer Science
+      institution: University of Kentucky, United States
+      year: 2015-2018
+      description:
+        - Advised by <a href='https://jacobsn.github.io/'>Nathan Jacobs</a>
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: 3D Perception and Deep Learning Intern
+      institution: Robert Bosch Inc.
+      year: Summer 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+        - Hosted by Yuliang Guo
+        - Worked on 3D indoor scene generation, specifically background texture generation for scenes through multi-view Control Net inpainting and back-projecting generated 2D images onto a texture map. During texture propagation, albedo optimization was attempted to ensure no lighting artifacts were stored in the map. We utilized the 3D-FRONT dataset, and used Blender for realistic renderings.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Volunteer
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Computer Vision in the Built Environment at CVPR
+      year: 2022, 2023
+      description:
+        - Hired professional architects to collect Building Information Models (BIM) from point clouds
+        - Created Revit plugin to extract custom 3D annotation data from BIM
 
-- title: Honors and Awards
+- title: Presentation
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Assistive Scan to Building Information Modeling
+      year: Sept 2023
+      description:
+        - Autodesk Research Connection Speaker Series
+        - Hosted by Jieliang (Rodger) Luo
 
-- title: Academic Interests
-  type: nested_list
+- title: Teaching
+  type: time_table
   contents:
-    - title: Topic 1.
+    - title: Teaching Assistant
+      year: Spring 2021
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - CMPT 762 Computer Vision, Simon Fraser University
 
-- title: Other Interests
-  type: list
+- title: Involvement
+  type: time_table
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Audio/visual Technician
+      year: 2019-2024
+      items:
+        - Coquitlam Alliance Church, British Columbia, Canada
+    - title: Sunday School Teacher
+      year: 2023-2024
+      items:
+        - Coquitlam Alliance Church, British Columbia, Canada
+        - Pre/K and grade 1-5 class
+    - title: Vice President
+      year: 2020-2022
+      items:
+        - SFU Computing Science Graduate Student Association
+    - title: Computer Science Team Lead
+      year: 2017-2018
+      items:
+        - <a href='https://solarcar.engr.uky.edu//'>University of Kentucky Solar Car Team</a>
+        - Responsible for the design of driver control and telemetry system
+    - title: Contestant
+      year: 2016, 2018
+      items:
+        - ACM International Collegiate Programming Contest (ICPC)
