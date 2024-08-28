@@ -19,5 +19,3 @@ social: true # includes social icons at the bottom of the page
 I am a PhD student studying Computing Science at Simon Fraser University, under the supervision of Prof. [Yasutaka Furukawa](https://yasu-furukawa.github.io/). Previously I obtained my Bachelor's and Master's degree at University of Kentucky, under the supervision of Prof. [Nathan Jacobs](https://jacobsn.github.io/).
 
 I am broadly interested in Computer Vision and reconstruction techniques. During my PhD my main focus was on structured/building reconstruction. I have also completed an industrial internship with Robert Bosch Inc., where I worked on 3D indoor scene generation.
-
-[I am currently looking for full-time opportunities in the industry. If interested, feel free to contact me via email here.](mailto:weilians@sfu.ca)
